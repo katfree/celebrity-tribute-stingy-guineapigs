@@ -22,16 +22,25 @@
     font-size: 50px;
 }
 
-img {
-    width:500px;
-    height:500px;
+artist img {
+    width:750px;
+    height:750px;
 }
 
-#details {
+.artist{
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px;
 }
 
-#aliasNames {
-    justify-content: row;
-    align-content: flex-end;
+#intro {
+    margin: 10px;
+    padding: 10px;
+}
+
+.collaborators img{}
+
+.collaborators{
+    display:flex;
 }
