@@ -1,0 +1,212 @@
+ .h1 {
+  display: flex;
+  justify-content: center;  
+
+}
+
+
+.navBar {
+    background-color: coral;
+    height: 30px;
+}
+
+.navBar a{
+    color:snow;
+    float: right;
+    padding:5px;
+    font-weight:bold;
+}
+
+.navBar a:hover {
+    background-color: black;
+}
+
+
+
+
+.pageheader {
+    color: rgb(156, 146, 131);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.headerimage {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(255, 217, 0, 0.788);
+    margin: 20px;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.introduction{
+    height: 60vh;
+    color: rgb(156, 146, 131);
+   
+}
+.Picture {
+    float: left;
+}
+
+.talent {
+   color: rgb(156, 146, 131);
+    height: 80vh;
+    
+
+}
+
+.talentheader { 
+    display: flex;
+    justify-content: center;
+    
+}
+.talenttext {
+    padding-top: 10px;
+   
+}
+
+
+
+.pic2 {
+    float: right;
+   
+}
+.pic3 {
+    display: flex; 
+    
+}
+
+.publishedworks {
+    display: flex;
+    flex-flow: row;
+    
+    color: rgb(156, 146, 131);
+    padding-bottom: 100px;
+
+    
+   
+}
+
+
+.publishedheader {
+    color: rgb(156, 146, 131);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.livedheader{
+    color: rgb(156, 146, 131);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.home {
+    width: 400px;
+    padding: 10px;
+
+}
+
+.lived {
+    color: rgb(156, 146, 131);
+    
+    height: 80vh;
+    display: flex;
+    flex-flow: row;
+}
+
+
+.home3 {
+    padding: 10px;
+    width: 400px;
+}
+
+.home5 {
+    padding: 10px;
+    width: 400px;
+}
+
+.collabheader{
+    color:rgb(156, 146, 131);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.jayzcollab{
+    width: 400px;
+    padding: 10px;
+}
+
+.coldplaycollab{
+    width: 400px;
+    padding: 10px;
+}
+
+.collabs{
+    color: rgb(156, 146, 131);
+    
+    height: 80vh;
+    display: flex;
+    flex-flow: row;
+}
+
+.ladygagacollab{
+    width: 400px;
+    padding: 10px;
+
+}
+
+.awardsheader{
+    color:rgb(156, 146, 131);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.awards{
+    color: rgb(156, 146, 131);
+    height: 80vh;
+    display: flex;
+    flex-flow: row;
+
+}
+
+.mtvaward{
+    width: 400px;
+
+    
+    
+}
+.amaaward{
+    width: 400px;
+   
+
+    
+    
+}
+
+.grammyaward{
+    width: 400px;
+    
+}
