@@ -23,7 +23,7 @@ h1 {
 .flex-container {
     text-align: left;
     padding: 25px;
-      margin: 50,50,50,50;
+      margin: 0;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
