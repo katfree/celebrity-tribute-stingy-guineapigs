@@ -47,6 +47,7 @@ body{
     margin: 10px;
     padding: 10px;
     font-size: 20px;
+    text-align: justify;
 }
 
 .profile{
@@ -56,7 +57,7 @@ body{
     padding: 10px;
 }
 .collaborators img{
-    margin 10px;
+    padding:40px;
     width:400px;
     height:400px;
 }
@@ -64,15 +65,26 @@ body{
 .collaborators{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .collaborators div {
-    width:33%;
+    width:40%;
     border: 2px double tomato;
     margin: 10px;
+    padding:10px;
+    text-align: justify;
 }
 
 .list_collaborators h2 {
     text-align: center;
+    font-size: 30px;
+    font: outline;
+    color: tomato;
 }
+
+.collaborators h3{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+}
+
