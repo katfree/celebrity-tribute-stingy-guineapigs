@@ -29,9 +29,21 @@ body {
 }
 .headerRight {
     text-align: right;
+    margin-right: 140px;
+}
+.headerLeft {
+    text-align: left;
+    margin-left: 140px;
+}
+.headerLeft2 {
+    text-align: left;
+    margin-left: 50px;
 }
 .mainFooter {
    margin-left: auto;
    margin-right: auto;
    
+}
+.list {
+    padding: 20px;
 }
