@@ -197,7 +197,6 @@ body {
     justify-content: center;
 }
 
-<<<<<<< HEAD
 .awardSection {
      color: rgb(156, 146, 131);
     margin-bottom: 20px;
@@ -209,7 +208,7 @@ body {
  
  .grammyaward {
     width: 400px;
-=======
+ }
 .awards{
     color: rgb(156, 146, 131);
     height: 80vh;
@@ -228,7 +227,6 @@ body {
     width: 400px;
    
 
->>>>>>> master
     
 }
 
@@ -238,19 +236,12 @@ body {
     
 }
 
-<<<<<<< HEAD
  .amaaward {
     width: 400px;
     padding-left: 60px;
 } 
 
- #footer {
-     clear: both;
-    
-  } 
-=======
 .grammyaward{
     width: 400px;
     
 }
->>>>>>> master
