@@ -186,7 +186,6 @@ body {
 
 .awards{
     color: rgb(156, 146, 131);
-    
     height: 80vh;
     display: flex;
     flex-flow: row;
@@ -194,14 +193,20 @@ body {
 }
 
 .mtvaward{
-    width: 600px;
+    width: 400px;
+
     
     
 }
 .amaaward{
-    width: 300px;
-    display: flex;
+    width: 400px;
+   
+
     
     
 }
 
+.grammyaward{
+    width: 400px;
+    
+}
