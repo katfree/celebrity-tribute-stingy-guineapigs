@@ -206,9 +206,7 @@ body {
     
 }
  
- .grammyaward {
-    width: 400px;
- }
+
 .awards{
     color: rgb(156, 146, 131);
     height: 80vh;
@@ -217,18 +215,6 @@ body {
 
 }
 
-.mtvaward{
-    width: 400px;
-
-    
-    
-}
-.amaaward{
-    width: 400px;
-   
-
-    
-}
 
 .mtvaward {
     width: 400px;
