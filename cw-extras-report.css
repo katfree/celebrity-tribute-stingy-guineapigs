@@ -20,14 +20,19 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 .flex-container {
+    align-items: center;
     text-align: left;
     padding: 25px;
-      margin: 50,50,50,50;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      margin-top: 20px;
-      margin-bottom: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
