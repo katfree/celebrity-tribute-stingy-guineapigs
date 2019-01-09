@@ -1,4 +1,3 @@
-
 .navBar {
     background-color: coral;
     height: 30px;
@@ -51,8 +50,7 @@ body {
     margin-left: 50px;
 }
 .mainFooter {
-   margin-left: auto;
-   margin-right: auto;   
+   text-align: left;  
 }
 .list {
     padding: 20px;
