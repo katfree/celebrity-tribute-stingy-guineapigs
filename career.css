@@ -39,16 +39,22 @@
 }
 
 
-body {
+.container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    
+}
+
+body {
     background-color: rgba(255, 217, 0, 0.788);
     margin: 20px;
 }
-.intro {
+
+
+.Intro {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     
 }
 
@@ -59,17 +65,28 @@ body {
     color: rgb(156, 146, 131);
    
 }
-.Picture {
-    float: left;
+
+
+.intro-beyonce {
+ flex-basis: 48%;
+
 }
 
 .talent {
    color: rgb(156, 146, 131);
     height: 80vh;
-    
+
 
 }
 
+.talent-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.talent-item{
+    flex-basis: 48%;
+}
 .talentheader { 
     display: flex;
     justify-content: center;
@@ -94,12 +111,9 @@ body {
 .publishedworks {
     display: flex;
     flex-flow: row;
-    
     color: rgb(156, 146, 131);
     padding-bottom: 100px;
 
-    
-   
 }
 
 
@@ -129,7 +143,6 @@ body {
 
 .lived {
     color: rgb(156, 146, 131);
-    
     height: 80vh;
     display: flex;
     flex-flow: row;
@@ -184,6 +197,16 @@ body {
     justify-content: center;
 }
 
+.awardSection {
+     color: rgb(156, 146, 131);
+    margin-bottom: 20px;
+    padding-bottom: 20px; 
+    display: flex;
+    flex-flow: row;
+    
+}
+ 
+
 .awards{
     color: rgb(156, 146, 131);
     height: 80vh;
@@ -192,19 +215,17 @@ body {
 
 }
 
-.mtvaward{
-    width: 400px;
 
-    
+.mtvaward {
+    width: 400px;
+    padding-right: 20px;
     
 }
-.amaaward{
-    width: 400px;
-   
 
-    
-    
-}
+ .amaaward {
+    width: 400px;
+    padding-left: 60px;
+} 
 
 .grammyaward{
     width: 400px;
